@@ -37,4 +37,4 @@ it('apiSecret을 가져오는 기능 테스트', done => {
 })
 ```
 
-# THANK YOU FOR [SUPERTEST](https://github.com/visionmedia/supertest)
+# ⭐THANK YOU FOR [SUPERTEST](https://github.com/visionmedia/supertest)⭐
