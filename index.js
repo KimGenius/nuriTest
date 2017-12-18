@@ -3,7 +3,7 @@
 const request = require('supertest')
 const _ = require('lodash')
 let res
-module.exports.nuriTest = (app, method, path, status, callback, done) => {
+module.exports = (app, method, path, status, callback, done) => {
   request(app)[method](path)
     .expect(status)
     .then(res => {
