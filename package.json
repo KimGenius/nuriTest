@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/KimGenius/nuriTest/issues"
   },
-  "homepage": "https://github.com/KimGenius/nuriTest#readme"
+  "homepage": "https://github.com/KimGenius/nuriTest#readme",
+  "dependencies": {
+    "supertest": "^3.0.0",
+    "lodash": "^4.17.4"
+  }
 }

@@ -1,10 +1,9 @@
 'use strict'
 
 const request = require('supertest')
-const app = require('../index.js')
 const _ = require('lodash')
 let res
-module.exports.nuriTest = (method, path, status, callback, done) => {
+module.exports.nuriTest = (app, method, path, status, callback, done) => {
   request(app)[method](path)
     .expect(status)
     .then(res => {
